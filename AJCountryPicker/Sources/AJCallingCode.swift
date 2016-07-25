@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 let AJCallingCodes: [[String: String]] = [
     [
         "name": "Afghanistan",
