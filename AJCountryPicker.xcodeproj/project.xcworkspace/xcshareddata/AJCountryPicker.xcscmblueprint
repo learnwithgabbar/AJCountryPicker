@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34047A032C4D971358EA0A978FABFBE0C59445AE+++D66F031",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34047A032C4D971358EA0A978FABFBE0C59445AE+++D66F031" : 0,
+    "34047A032C4D971358EA0A978FABFBE0C59445AE+++B7ECFD0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "83A71816-9D9C-4F8D-A22C-955C8FEE3A7A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34047A032C4D971358EA0A978FABFBE0C59445AE+++D66F031" : "AJCountryPicker\/",
+    "34047A032C4D971358EA0A978FABFBE0C59445AE+++B7ECFD0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AJCountryPicker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AJCountryPicker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/techmehra\/AJCountryPicker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34047A032C4D971358EA0A978FABFBE0C59445AE+++B7ECFD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/techmehra\/AJCountryPicker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34047A032C4D971358EA0A978FABFBE0C59445AE+++D66F031"
+    }
+  ]
+}
