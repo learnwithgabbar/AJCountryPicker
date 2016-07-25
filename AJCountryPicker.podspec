@@ -107,7 +107,7 @@ s.source_files  =  "AJCountryPicker/Sources/*.swift"
 #
 
 # s.resource  = "icon.png"
-s.resources = 'AJCountryPicker/Source/assets.bundle'
+s.resources = 'AJCountryPicker/Resources/assets.bundle'
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
