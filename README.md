@@ -10,7 +10,7 @@ AJCountryPicker is library to pick country code and flag written in Swift.
 - [x] Country Calling Code
 - [x] Country Name
 - [x] Colusres to pick country 
-- [x] Delegates to pick countrey
+- [x] Delegates to pick country
 
 
 ## Installation
