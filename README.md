@@ -50,4 +50,4 @@ $ pod install
 
 ## License
 
-Alamofire is released under the MIT license. See LICENSE for details.
+AJCountryPicker is released under the MIT license. See LICENSE for details.
