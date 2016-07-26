@@ -3,6 +3,8 @@
 
 AJCountryPicker is library to pick country code and flag written in Swift.
 
+
+[![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)](https://swift.org)
 ## Features
 
 - [x] Country Flag
