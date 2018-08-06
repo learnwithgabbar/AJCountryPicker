@@ -9,19 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet private var displayLabel: UILabel!
+
+    @IBAction private func selectCountry(_ sender: UIButton) {
+        let countryPicker = AJCountryPicker()
+        countryPicker.showSearchBar = true
+
+        countryPicker.showCallingCodes = true
+        countryPicker.country = {
+            self.displayLabel.text = "You have selected " + $0.name + "with ISO Code" + $0.ISOCode + "Your Calling code is " + $0.callingCode
+        }
+        navigationController?.pushViewController(countryPicker, animated: true)
+    }
+
+    @IBAction private func selectCountryWithCustomCodes(_ sender: UIButton) {
         let countryPicker = AJCountryPicker()
         countryPicker.showSearchBar = true
         countryPicker.customCountriesCodes = ["IN", "US"]
         countryPicker.showCallingCodes = true
         countryPicker.country = {
-            print("Selected Country Name =====> ", $0.name)
-            print("Selected Country ISO Code =====> ", $0.ISOCode)
-            print("Selected Country Calling Code =====> ", $0.callingCode)
-            
+            self.displayLabel.text = "You have selected " + $0.name + "with ISO Code" + $0.ISOCode + "Your Calling code is " + $0.callingCode
         }
-        self.navigationController?.pushViewController(countryPicker, animated: true)
+        navigationController?.pushViewController(countryPicker, animated: true)
+    }
+
+ 
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 

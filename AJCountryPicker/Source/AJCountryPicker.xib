@@ -40,7 +40,6 @@
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Pey-2E-Hpp"/>
                         <outlet property="delegate" destination="-1" id="adE-Dj-tCc"/>
-                        <outlet property="prefetchDataSource" destination="-1" id="Ves-15-p7f"/>
                     </connections>
                 </tableView>
             </subviews>

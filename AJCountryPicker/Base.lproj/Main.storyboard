@@ -17,10 +17,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmR-SR-4MA">
+                                <rect key="frame" x="10" y="296.5" width="355" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.68235294120000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0u-3C-pLx">
+                                <rect key="frame" x="101.5" y="316.5" width="172" height="34"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                <state key="normal" title="Select You Country">
+                                    <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Le-OV-4tP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8e-MS-yc8">
+                                <rect key="frame" x="62" y="365.5" width="251" height="34"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                <state key="normal" title="Select Through Custom Codes">
+                                    <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectCountryWithCustomCodes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UJ8-Ru-38h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.066666666669999999" green="0.1960784314" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GmR-SR-4MA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="2eu-EH-v7h"/>
+                            <constraint firstItem="s8e-MS-yc8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Qu-6H-bAC"/>
+                            <constraint firstAttribute="trailing" secondItem="GmR-SR-4MA" secondAttribute="trailing" constant="10" id="RFY-gh-bgk"/>
+                            <constraint firstItem="m0u-3C-pLx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rr1-KR-GAU"/>
+                            <constraint firstItem="s8e-MS-yc8" firstAttribute="top" secondItem="m0u-3C-pLx" secondAttribute="bottom" constant="15" id="SWg-Gn-mtw"/>
+                            <constraint firstItem="GmR-SR-4MA" firstAttribute="centerX" secondItem="m0u-3C-pLx" secondAttribute="centerX" id="eZu-gX-NB4"/>
+                            <constraint firstItem="m0u-3C-pLx" firstAttribute="top" secondItem="GmR-SR-4MA" secondAttribute="bottom" constant="20" id="ftg-Z2-UBO"/>
+                            <constraint firstItem="m0u-3C-pLx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="orp-F0-q7w"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="CYH-do-5BF"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="GmR-SR-4MA" id="AOz-VZ-5gq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
