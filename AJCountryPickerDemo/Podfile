@@ -6,7 +6,7 @@ target 'AJCountryPickerDemo' do
 use_frameworks!
 
 # Pods for AJCountryPickerDemo
-pod 'AJCountryPicker'
+pod 'AJCountryPicker', :git => 'https://github.com/techmehra/AJCountryPicker.git'
 target 'AJCountryPickerDemoTests' do
 inherit! :search_paths
 # Pods for testing

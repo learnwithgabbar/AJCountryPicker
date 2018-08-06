@@ -1,12 +1,21 @@
 PODS:
-  - AJCountryPicker (1.0.0.1)
+  - AJCountryPicker (2.0.0)
 
 DEPENDENCIES:
-  - AJCountryPicker
+  - AJCountryPicker (from `https://github.com/techmehra/AJCountryPicker.git`)
+
+EXTERNAL SOURCES:
+  AJCountryPicker:
+    :git: https://github.com/techmehra/AJCountryPicker.git
+
+CHECKOUT OPTIONS:
+  AJCountryPicker:
+    :commit: c2613b9f693a3bc81652e393be512fe18765d2fe
+    :git: https://github.com/techmehra/AJCountryPicker.git
 
 SPEC CHECKSUMS:
-  AJCountryPicker: bbaf251f92c0b50388f15a9e59111b73d6e26cce
+  AJCountryPicker: 7370e173363a6348e82abc338b04fa0a523823be
 
-PODFILE CHECKSUM: b7fb5d9ecfb6bd1c37545cc72860c6a8b1edabec
+PODFILE CHECKSUM: ebc430b58c832c94606684bed67ccc0202981d0c
 
 COCOAPODS: 1.4.0

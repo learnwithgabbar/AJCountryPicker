@@ -24,31 +24,20 @@ class ViewController: UIViewController {
 	}
 
 	// MARK:- IBActions
-	@IBAction func selectCountryButtonTapped(sender: UIButton) -> Void {
-		let picker = AJCountryPicker { (country, code) -> () in
-			self.label.text = "Selected Country " + country
-		}
-
-		// Optional: To pick from custom countries list
-		picker.customCountriesCode = ["EG", "US", "AF", "AQ", "AX", "IN"]
-
-		// delegate
-		picker.delegate = self
-
-		// Display calling codes
-		picker.showCallingCodes = true
-
-		// or closure
-		picker.countryWithCode = { (country, code) -> () in
-			// picker.navigationController?.popToRootViewControllerAnimated(true)
-		}
-		navigationController?.pushViewController(picker, animated: true)
+	@IBAction func selectCountry(_ sender: UIButton) -> Void {
+        let countryPicker = AJCountryPicker()
+        countryPicker.showSearchBar = true
+        countryPicker.customCountriesCodes = ["IN", "US"]
+        countryPicker.showCallingCodes = true
+        countryPicker.country = {
+            print("Selected Country Name =====> ", $0.name)
+            print("Selected Country ISO Code =====> ", $0.ISOCode)
+            print("Selected Country Calling Code =====> ", $0.callingCode)
+            
+        }
+        self.navigationController?.pushViewController(countryPicker, animated: true)
 		//navigationController?.presentViewController(picker, animated: true, completion: nil)
 	}
 }
 
-extension ViewController: AJCountryPickerDelegate {
-	func ajCountryPicker(picker: AJCountryPicker, didSelectCountryWithName name: String, code: String) {
-		label.text = "Selected Country: \(name)"
-	}
-}
+
