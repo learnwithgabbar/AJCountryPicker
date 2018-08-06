@@ -1,12 +1,12 @@
 PODS:
-  - AJCountryPicker (0.0.5)
+  - AJCountryPicker (1.0.0.1)
 
 DEPENDENCIES:
   - AJCountryPicker
 
 SPEC CHECKSUMS:
-  AJCountryPicker: 0f79138fe3cffd1972c49b2896fc1921021b8036
+  AJCountryPicker: bbaf251f92c0b50388f15a9e59111b73d6e26cce
 
 PODFILE CHECKSUM: b7fb5d9ecfb6bd1c37545cc72860c6a8b1edabec
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.4.0
