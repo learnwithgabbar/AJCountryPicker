@@ -110,7 +110,7 @@ s.source_files  =  "AJCountryPicker/Sources/*"
 s.resources = 'AJCountryPicker/Resources/assets.bundle'
 s.resources = "AJCountryPicker/*.xib"
 s.resource_bundles = {
-'AJCountryPickerß' => [
+'AJCountryPicker' => [
 'Pod/**/*.xib'
 ]
 }
