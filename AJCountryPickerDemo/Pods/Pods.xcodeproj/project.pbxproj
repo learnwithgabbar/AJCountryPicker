@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D250E5C0FE8E6ECF79D0878D248377 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C69C4FFF7A9E0D809B304A971033B /* NibOwnerLoadable.swift */; };
-		0E1EBEF9F87A4679D8A24E3553AC0110 /* ATCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564AD06DA54202AE0B81DFB5D1C22363 /* ATCountryPicker.swift */; };
-		3937C96411F2E62D30A2E77A2F120D74 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D3FD5E8F1F17243AA9057AD213AA5 /* NibLoadable.swift */; };
+		083BFACF1BF1C70148EA2261C1DD2C33 /* CallingCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0B4F677BB6A7F0D0B41FCAB7539E3 /* CallingCodes.swift */; };
+		15B9691D8F78ADE5287679A32BE032A5 /* ATCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4B4F8D80223FEFB315C549D14FB24 /* ATCountryPicker.swift */; };
+		1F4CE265B02A28D862AFA77F7071F4FD /* ATCountryPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 798FC505D3B83EAF98F7968BBD85F205 /* ATCountryPicker.xib */; };
 		49F9E448946F3797E7BC1254FE454CFE /* Pods-AJCountryPickerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B130DD1EB88C778BBDDD3B59E06EE44B /* Pods-AJCountryPickerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A17972A04479FD31174A57EA6CF49BE /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233CE931E5D73DB07F35FFA7FBC53A14 /* CountryTableViewCell.swift */; };
 		4B86E4650D409C24DF0604890C04B623 /* Pods-AJCountryPickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D294A011FBFD745BA0044E512CD5A2BC /* Pods-AJCountryPickerDemo-dummy.m */; };
-		5B39ABDFCD23AD31422A5FB89AA3A3FB /* AJCountryPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3A13DED9346AAA351023C0A2077AD7E7 /* AJCountryPicker.xib */; };
-		81354520BD30016E3C23DF260BCF92BE /* CountryTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EA3010EA34F3E2CED679A3F219CE /* CountryTableViewCell.xib */; };
+		60AC2E600D4D9FE00F6DF3670B4DB881 /* CountryTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 82CC4492D9379F0DC10BD2B5F1B701F3 /* CountryTableViewCell.xib */; };
+		62C56CF8423D87DD7FB08088E291C846 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163054690B6839A30F2E52C009FA5 /* UITableView+Reusable.swift */; };
+		6FA8F4A3F4FAC9371BF3281D504CC7D6 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54562C374436F2D8DDDADA993C4D59CE /* NibOwnerLoadable.swift */; };
+		6FBA900D33F8EDE5EE6CE5DCC57E9CDD /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6DF35E696555D84E4BF9A4B24F73C2 /* NibLoadable.swift */; };
 		9C96FCBA6B4BEEF856AB11C6BF47EC58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9CB94711ED99449149F867EEA3954521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A26F843E33EE30E4B281FEDF80CE9FE8 /* AJCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19951A26E8E5852B7FA6C0B51DC9E2D /* AJCountryPicker-dummy.m */; };
+		A52E5DC5140A5269ACA0B611E4D18D04 /* AJCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5868F316B9B09E595EE2058F60B998B /* AJCountryPicker-dummy.m */; };
 		A73AF3CD95D7AD38AA54F98DA76D5D26 /* Pods-AJCountryPickerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC34435C2F1871FBBA5554233DC577 /* Pods-AJCountryPickerDemoTests-dummy.m */; };
 		A7F3A6D86635F70842F97B15A196D7B7 /* Pods-AJCountryPickerDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5138DC835EB010B5EE077F26B0803C2B /* Pods-AJCountryPickerDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2ACF43EC1BF0FDC160ABE07A337E252 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB331B4D482E379F6B0383158CA3F18 /* CountryTableViewCell.swift */; };
-		B8785CA710FADCA862D2EFF08AE3B1B3 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26242CB26DB65B201880C40F02FCFBFE /* Country.swift */; };
-		B9DB3953F46478914886388F0D596CCA /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFA71DB9645163436C6CB620E94DD730 /* assets.bundle */; };
-		C45D941E63D1350DE7327E41465D7A83 /* AJCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892959BED317E69CB2EC6C98BABAD56 /* AJCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D083431397B13864AA659D732DA3EAB8 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E16832C58E1914F7C96A9F0BBA6B79 /* UITableView+Reusable.swift */; };
-		E67DF3DF47BE1198FD67F95DD22E80F4 /* CallingCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020F18DC1833C5731934129D5FBAC38 /* CallingCodes.swift */; };
-		E9B34414AEE891CC46E1713E50A93AF8 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41D23D485C454150AA1EFD0A2926C8 /* Reusable.swift */; };
+		B9DB3953F46478914886388F0D596CCA /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0F6CE76301F16268DE3EDE52CE38FE2 /* assets.bundle */; };
+		C45D941E63D1350DE7327E41465D7A83 /* AJCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E676C3AB72F2B08BC5231361909CC14 /* AJCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C593F8FF54475E6A7065BA6CC3B963 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF0CE191F5C0312EB1A32B6B839A358 /* Reusable.swift */; };
+		E92D7D39CF74F23AC432932DD67FDED1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55950CD0B5121851351EA99318E0A9 /* Country.swift */; };
 		EB07F4BBAF200CAD633AA5DF990CA956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,45 +43,45 @@
 		04A9CDDB3D896E45C30975DC2542AF28 /* Pods_AJCountryPickerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJCountryPickerDemoTests.framework; path = "Pods-AJCountryPickerDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D24C620BB370A2F438F780050838E49 /* Pods-AJCountryPickerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJCountryPickerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		11464955054940EEC24FC9D7F3AB31DC /* Pods-AJCountryPickerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJCountryPickerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1892959BED317E69CB2EC6C98BABAD56 /* AJCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJCountryPicker-umbrella.h"; sourceTree = "<group>"; };
-		26242CB26DB65B201880C40F02FCFBFE /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Country.swift; path = AJCountryPicker/Sources/Country.swift; sourceTree = "<group>"; };
-		264D3FD5E8F1F17243AA9057AD213AA5 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = AJCountryPicker/Sources/NibLoadable.swift; sourceTree = "<group>"; };
-		2EB0EA3010EA34F3E2CED679A3F219CE /* CountryTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryTableViewCell.xib; path = AJCountryPicker/Sources/CountryTableViewCell.xib; sourceTree = "<group>"; };
+		13B6FC061386C5D55F8FCA7DE89EE845 /* AJCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJCountryPicker.modulemap; sourceTree = "<group>"; };
+		233CE931E5D73DB07F35FFA7FBC53A14 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryTableViewCell.swift; path = AJCountryPicker/Sources/CountryTableViewCell.swift; sourceTree = "<group>"; };
 		31AC34435C2F1871FBBA5554233DC577 /* Pods-AJCountryPickerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJCountryPickerDemoTests-dummy.m"; sourceTree = "<group>"; };
-		3A13DED9346AAA351023C0A2077AD7E7 /* AJCountryPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AJCountryPicker.xib; path = AJCountryPicker/Sources/AJCountryPicker.xib; sourceTree = "<group>"; };
+		4E676C3AB72F2B08BC5231361909CC14 /* AJCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		50A163054690B6839A30F2E52C009FA5 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "AJCountryPicker/Sources/UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		5138DC835EB010B5EE077F26B0803C2B /* Pods-AJCountryPickerDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJCountryPickerDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		524B0936A0C5544CC63C91111EC7B339 /* Pods-AJCountryPickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJCountryPickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54562C374436F2D8DDDADA993C4D59CE /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibOwnerLoadable.swift; path = AJCountryPicker/Sources/NibOwnerLoadable.swift; sourceTree = "<group>"; };
 		5592A194E7CA065195591D5DC19622B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		564AD06DA54202AE0B81DFB5D1C22363 /* ATCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATCountryPicker.swift; path = AJCountryPicker/Sources/ATCountryPicker.swift; sourceTree = "<group>"; };
 		5856CBAA35CE78F1CBE8A27C43790910 /* Pods-AJCountryPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJCountryPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BBC2A6218756646F3304368621923AF /* Pods_AJCountryPickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJCountryPickerDemo.framework; path = "Pods-AJCountryPickerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC68035D67E49A49E4E02047411400C /* AJCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJCountryPicker-prefix.pch"; sourceTree = "<group>"; };
 		63F31A8F853AF7EC546DB8CEFEEE1F01 /* Pods-AJCountryPickerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJCountryPickerDemoTests-resources.sh"; sourceTree = "<group>"; };
-		6713C9BEBCFE8C51D6F3252164C81007 /* AJCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJCountryPicker.xcconfig; sourceTree = "<group>"; };
-		74E16832C58E1914F7C96A9F0BBA6B79 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "AJCountryPicker/Sources/UITableView+Reusable.swift"; sourceTree = "<group>"; };
-		7D41D23D485C454150AA1EFD0A2926C8 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = AJCountryPicker/Sources/Reusable.swift; sourceTree = "<group>"; };
+		68D32758C72309272263E2FB115A13EC /* AJCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJCountryPicker.xcconfig; sourceTree = "<group>"; };
+		798FC505D3B83EAF98F7968BBD85F205 /* ATCountryPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ATCountryPicker.xib; path = AJCountryPicker/Sources/ATCountryPicker.xib; sourceTree = "<group>"; };
+		82CC4492D9379F0DC10BD2B5F1B701F3 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryTableViewCell.xib; path = AJCountryPicker/Sources/CountryTableViewCell.xib; sourceTree = "<group>"; };
+		896366876A49A73A07432E65A88CBB0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89E5385AFB413159FC0DE3A47BE0DACA /* Pods-AJCountryPickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJCountryPickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		946620377989A7E0F0C429226361B4EA /* AJCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJCountryPicker.modulemap; sourceTree = "<group>"; };
-		A19951A26E8E5852B7FA6C0B51DC9E2D /* AJCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJCountryPicker-dummy.m"; sourceTree = "<group>"; };
-		A33C240EEC66ACE01CFD713679BCC90F /* AJCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		9D6DF35E696555D84E4BF9A4B24F73C2 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = AJCountryPicker/Sources/NibLoadable.swift; sourceTree = "<group>"; };
+		9EE0B4F677BB6A7F0D0B41FCAB7539E3 /* CallingCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallingCodes.swift; path = AJCountryPicker/Sources/CallingCodes.swift; sourceTree = "<group>"; };
+		A2F4B4F8D80223FEFB315C549D14FB24 /* ATCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATCountryPicker.swift; path = AJCountryPicker/Sources/ATCountryPicker.swift; sourceTree = "<group>"; };
 		B033D6AF8C30BC6E5D456C756C926B8E /* AJCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJCountryPicker.framework; path = AJCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F6CE76301F16268DE3EDE52CE38FE2 /* assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = assets.bundle; path = AJCountryPicker/Resources/assets.bundle; sourceTree = "<group>"; };
 		B130DD1EB88C778BBDDD3B59E06EE44B /* Pods-AJCountryPickerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJCountryPickerDemo-umbrella.h"; sourceTree = "<group>"; };
 		B3BC83CF548E471A750F485285B85E96 /* Pods-AJCountryPickerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJCountryPickerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		BBB331B4D482E379F6B0383158CA3F18 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryTableViewCell.swift; path = AJCountryPicker/Sources/CountryTableViewCell.swift; sourceTree = "<group>"; };
-		C020F18DC1833C5731934129D5FBAC38 /* CallingCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallingCodes.swift; path = AJCountryPicker/Sources/CallingCodes.swift; sourceTree = "<group>"; };
 		C10DC9D79B11C2979AD1C1D4AC7A939F /* Pods-AJCountryPickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJCountryPickerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		C98C69C4FFF7A9E0D809B304A971033B /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibOwnerLoadable.swift; path = AJCountryPicker/Sources/NibOwnerLoadable.swift; sourceTree = "<group>"; };
 		C9D41E5141193D43A9F8EF40FD4162B8 /* Pods-AJCountryPickerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJCountryPickerDemo-resources.sh"; sourceTree = "<group>"; };
 		D294A011FBFD745BA0044E512CD5A2BC /* Pods-AJCountryPickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJCountryPickerDemo-dummy.m"; sourceTree = "<group>"; };
-		DFA71DB9645163436C6CB620E94DD730 /* assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = assets.bundle; path = AJCountryPicker/Resources/assets.bundle; sourceTree = "<group>"; };
-		E0FBD747F588DD269D447808F261BEB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5868F316B9B09E595EE2058F60B998B /* AJCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJCountryPicker-dummy.m"; sourceTree = "<group>"; };
 		E481494E7DD2331F2DFD92279080E298 /* Pods-AJCountryPickerDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJCountryPickerDemoTests.modulemap"; sourceTree = "<group>"; };
 		E5E5217CC4E76346FBA4FF8B03052C12 /* Pods-AJCountryPickerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJCountryPickerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E712F8FD87E5C25BA0E8EC53E0B1C6C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E76D53D765F14C30E04946D42391C098 /* Pods-AJCountryPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJCountryPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB60A7B6DE878DB311FD206086B2C2E5 /* Pods-AJCountryPickerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJCountryPickerDemo.modulemap"; sourceTree = "<group>"; };
 		F315C12A4A5DB238242164B460CC82F8 /* Pods-AJCountryPickerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJCountryPickerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBF0CE191F5C0312EB1A32B6B839A358 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = AJCountryPicker/Sources/Reusable.swift; sourceTree = "<group>"; };
+		FC55950CD0B5121851351EA99318E0A9 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Country.swift; path = AJCountryPicker/Sources/Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,26 +122,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F3C2841F85D58E6E5B217A7E81A7ABA /* Support Files */ = {
+		3EF5002E751E07EB28465F48E4AACF98 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				946620377989A7E0F0C429226361B4EA /* AJCountryPicker.modulemap */,
-				6713C9BEBCFE8C51D6F3252164C81007 /* AJCountryPicker.xcconfig */,
-				A19951A26E8E5852B7FA6C0B51DC9E2D /* AJCountryPicker-dummy.m */,
-				A33C240EEC66ACE01CFD713679BCC90F /* AJCountryPicker-prefix.pch */,
-				1892959BED317E69CB2EC6C98BABAD56 /* AJCountryPicker-umbrella.h */,
-				E0FBD747F588DD269D447808F261BEB7 /* Info.plist */,
+				13B6FC061386C5D55F8FCA7DE89EE845 /* AJCountryPicker.modulemap */,
+				68D32758C72309272263E2FB115A13EC /* AJCountryPicker.xcconfig */,
+				D5868F316B9B09E595EE2058F60B998B /* AJCountryPicker-dummy.m */,
+				5CC68035D67E49A49E4E02047411400C /* AJCountryPicker-prefix.pch */,
+				4E676C3AB72F2B08BC5231361909CC14 /* AJCountryPicker-umbrella.h */,
+				896366876A49A73A07432E65A88CBB0D /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AJCountryPicker";
-			sourceTree = "<group>";
-		};
-		4CFF403447A5C2896A76004ECED4CD64 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DFA71DB9645163436C6CB620E94DD730 /* assets.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -161,6 +153,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7C39099BBACD898500B3A390C3328715 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0F6CE76301F16268DE3EDE52CE38FE2 /* assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +170,26 @@
 				260859FF7502D2D029C734F8C3CE3B97 /* Products */,
 				5E6A16D7BC6DCBE73812ACAE22131FCD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		802EB60C14D129EFC13D845DC1206503 /* AJCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4B4F8D80223FEFB315C549D14FB24 /* ATCountryPicker.swift */,
+				798FC505D3B83EAF98F7968BBD85F205 /* ATCountryPicker.xib */,
+				9EE0B4F677BB6A7F0D0B41FCAB7539E3 /* CallingCodes.swift */,
+				FC55950CD0B5121851351EA99318E0A9 /* Country.swift */,
+				233CE931E5D73DB07F35FFA7FBC53A14 /* CountryTableViewCell.swift */,
+				82CC4492D9379F0DC10BD2B5F1B701F3 /* CountryTableViewCell.xib */,
+				9D6DF35E696555D84E4BF9A4B24F73C2 /* NibLoadable.swift */,
+				54562C374436F2D8DDDADA993C4D59CE /* NibOwnerLoadable.swift */,
+				FBF0CE191F5C0312EB1A32B6B839A358 /* Reusable.swift */,
+				50A163054690B6839A30F2E52C009FA5 /* UITableView+Reusable.swift */,
+				7C39099BBACD898500B3A390C3328715 /* Resources */,
+				3EF5002E751E07EB28465F48E4AACF98 /* Support Files */,
+			);
+			name = AJCountryPicker;
+			path = AJCountryPicker;
 			sourceTree = "<group>";
 		};
 		954EF093337D16002270E8AB4A6D5C50 /* Pods-AJCountryPickerDemo */ = {
@@ -219,29 +239,9 @@
 		C9F50928E7BDB304B577C2211425B7C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EC85D10DCAAF96728570546EF7AD7FB6 /* AJCountryPicker */,
+				802EB60C14D129EFC13D845DC1206503 /* AJCountryPicker */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		EC85D10DCAAF96728570546EF7AD7FB6 /* AJCountryPicker */ = {
-			isa = PBXGroup;
-			children = (
-				3A13DED9346AAA351023C0A2077AD7E7 /* AJCountryPicker.xib */,
-				564AD06DA54202AE0B81DFB5D1C22363 /* ATCountryPicker.swift */,
-				C020F18DC1833C5731934129D5FBAC38 /* CallingCodes.swift */,
-				26242CB26DB65B201880C40F02FCFBFE /* Country.swift */,
-				BBB331B4D482E379F6B0383158CA3F18 /* CountryTableViewCell.swift */,
-				2EB0EA3010EA34F3E2CED679A3F219CE /* CountryTableViewCell.xib */,
-				264D3FD5E8F1F17243AA9057AD213AA5 /* NibLoadable.swift */,
-				C98C69C4FFF7A9E0D809B304A971033B /* NibOwnerLoadable.swift */,
-				7D41D23D485C454150AA1EFD0A2926C8 /* Reusable.swift */,
-				74E16832C58E1914F7C96A9F0BBA6B79 /* UITableView+Reusable.swift */,
-				4CFF403447A5C2896A76004ECED4CD64 /* Resources */,
-				2F3C2841F85D58E6E5B217A7E81A7ABA /* Support Files */,
-			);
-			name = AJCountryPicker;
-			path = AJCountryPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 865841DC477C1D8C79544B1EAD8E197F /* Build configuration list for PBXNativeTarget "AJCountryPicker" */;
 			buildPhases = (
-				83BB45C4767670EE241CD7F445C34F79 /* Sources */,
+				5841BEFD05B8F3A512EA2F7EE0E82CFF /* Sources */,
 				13F0C2F4865D21619347E5516977DD4E /* Frameworks */,
 				521A647E4F59D468C074560B2A23DFE7 /* Resources */,
 				F02F7249529D60997D3F27544EAE8BD5 /* Headers */,
@@ -367,29 +367,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5841BEFD05B8F3A512EA2F7EE0E82CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52E5DC5140A5269ACA0B611E4D18D04 /* AJCountryPicker-dummy.m in Sources */,
+				15B9691D8F78ADE5287679A32BE032A5 /* ATCountryPicker.swift in Sources */,
+				1F4CE265B02A28D862AFA77F7071F4FD /* ATCountryPicker.xib in Sources */,
+				083BFACF1BF1C70148EA2261C1DD2C33 /* CallingCodes.swift in Sources */,
+				E92D7D39CF74F23AC432932DD67FDED1 /* Country.swift in Sources */,
+				4A17972A04479FD31174A57EA6CF49BE /* CountryTableViewCell.swift in Sources */,
+				60AC2E600D4D9FE00F6DF3670B4DB881 /* CountryTableViewCell.xib in Sources */,
+				6FBA900D33F8EDE5EE6CE5DCC57E9CDD /* NibLoadable.swift in Sources */,
+				6FA8F4A3F4FAC9371BF3281D504CC7D6 /* NibOwnerLoadable.swift in Sources */,
+				E0C593F8FF54475E6A7065BA6CC3B963 /* Reusable.swift in Sources */,
+				62C56CF8423D87DD7FB08088E291C846 /* UITableView+Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DDD24C89977B88F51E13A20F1259A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A73AF3CD95D7AD38AA54F98DA76D5D26 /* Pods-AJCountryPickerDemoTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BB45C4767670EE241CD7F445C34F79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A26F843E33EE30E4B281FEDF80CE9FE8 /* AJCountryPicker-dummy.m in Sources */,
-				5B39ABDFCD23AD31422A5FB89AA3A3FB /* AJCountryPicker.xib in Sources */,
-				0E1EBEF9F87A4679D8A24E3553AC0110 /* ATCountryPicker.swift in Sources */,
-				E67DF3DF47BE1198FD67F95DD22E80F4 /* CallingCodes.swift in Sources */,
-				B8785CA710FADCA862D2EFF08AE3B1B3 /* Country.swift in Sources */,
-				B2ACF43EC1BF0FDC160ABE07A337E252 /* CountryTableViewCell.swift in Sources */,
-				81354520BD30016E3C23DF260BCF92BE /* CountryTableViewCell.xib in Sources */,
-				3937C96411F2E62D30A2E77A2F120D74 /* NibLoadable.swift in Sources */,
-				04D250E5C0FE8E6ECF79D0878D248377 /* NibOwnerLoadable.swift in Sources */,
-				E9B34414AEE891CC46E1713E50A93AF8 /* Reusable.swift in Sources */,
-				D083431397B13864AA659D732DA3EAB8 /* UITableView+Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +536,7 @@
 		};
 		972A6FB2E9611CC3A9F4B9BF65FD767D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6713C9BEBCFE8C51D6F3252164C81007 /* AJCountryPicker.xcconfig */;
+			baseConfigurationReference = 68D32758C72309272263E2FB115A13EC /* AJCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,7 +667,7 @@
 		};
 		D0D0C4E7056C9C10AA1DB798F582DC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6713C9BEBCFE8C51D6F3252164C81007 /* AJCountryPicker.xcconfig */;
+			baseConfigurationReference = 68D32758C72309272263E2FB115A13EC /* AJCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
