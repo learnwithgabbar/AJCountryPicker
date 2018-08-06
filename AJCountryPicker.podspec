@@ -107,7 +107,13 @@ s.source_files  =  "AJCountryPicker/Sources/*"
 #
 
 # s.resource  = "icon.png"
-s.resources = 'AJCountryPicker/Resources/'
+s.resources = 'AJCountryPicker/Resources/assets.bundle'
+s.resources = "AJCountryPicker/*.xib"
+s.resource_bundles = {
+'AJCountryPickerß' => [
+'Pod/**/*.xib'
+]
+}
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
