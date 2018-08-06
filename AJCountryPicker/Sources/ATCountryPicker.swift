@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AJCountryPicker: UIViewController {
+class ATCountryPicker: UIViewController {
     // MARK: - IBOutlets
     
     @IBOutlet private var tableView: UITableView!
@@ -72,7 +72,7 @@ class AJCountryPicker: UIViewController {
 
 // MARK: - Table view data source
 
-extension AJCountryPicker: UITableViewDataSource {
+extension ATCountryPicker: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -91,7 +91,7 @@ extension AJCountryPicker: UITableViewDataSource {
 
 // MARK: - Table view delegate
 
-extension AJCountryPicker: UITableViewDelegate {
+extension ATCountryPicker: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         country?(items[indexPath.row])
         if isPresented {
@@ -102,7 +102,7 @@ extension AJCountryPicker: UITableViewDelegate {
     }
 }
 
-extension AJCountryPicker: UISearchBarDelegate {
+extension ATCountryPicker: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filter(with: searchText)
     }
