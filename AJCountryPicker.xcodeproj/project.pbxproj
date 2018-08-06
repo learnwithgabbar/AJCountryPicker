@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		041A2F6F1D45E498009A7A67 /* AJCountryPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2F641D45E498009A7A67 /* AJCountryPicker.framework */; };
 		041A2F741D45E498009A7A67 /* AJCountryPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2F731D45E498009A7A67 /* AJCountryPickerTests.swift */; };
-		041A2F841D45E564009A7A67 /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 041A2F831D45E564009A7A67 /* assets.bundle */; };
-		041A2FDC1D4621D9009A7A67 /* AJCallingCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FD91D4621D9009A7A67 /* AJCallingCode.swift */; };
-		041A2FDD1D4621D9009A7A67 /* AJCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FDA1D4621D9009A7A67 /* AJCountry.swift */; };
-		041A2FDE1D4621D9009A7A67 /* AJCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FDB1D4621D9009A7A67 /* AJCountryPicker.swift */; };
+		210A90632118621F00C44F3B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 210A90572118621F00C44F3B /* assets.bundle */; };
+		210A90642118621F00C44F3B /* CallingCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90592118621F00C44F3B /* CallingCodes.swift */; };
+		210A90652118621F00C44F3B /* AJCountryPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905A2118621F00C44F3B /* AJCountryPicker.xib */; };
+		210A90662118621F00C44F3B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905B2118621F00C44F3B /* Reusable.swift */; };
+		210A90672118621F00C44F3B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905C2118621F00C44F3B /* Country.swift */; };
+		210A90682118621F00C44F3B /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905D2118621F00C44F3B /* CountryTableViewCell.swift */; };
+		210A90692118621F00C44F3B /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905E2118621F00C44F3B /* CountryTableViewCell.xib */; };
+		210A906A2118621F00C44F3B /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905F2118621F00C44F3B /* UITableView+Reusable.swift */; };
+		210A906B2118621F00C44F3B /* AJCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90602118621F00C44F3B /* AJCountryPicker.swift */; };
+		210A906C2118621F00C44F3B /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90612118621F00C44F3B /* NibLoadable.swift */; };
+		210A906D2118621F00C44F3B /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90622118621F00C44F3B /* NibOwnerLoadable.swift */; };
+		210A906F2118629100C44F3B /* AJCountryPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 210A906E2118629100C44F3B /* AJCountryPicker.podspec */; };
+		210A90712118629D00C44F3B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 210A90702118629C00C44F3B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +40,19 @@
 		041A2F6E1D45E498009A7A67 /* AJCountryPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJCountryPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041A2F731D45E498009A7A67 /* AJCountryPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJCountryPickerTests.swift; sourceTree = "<group>"; };
 		041A2F751D45E498009A7A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041A2F831D45E564009A7A67 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
-		041A2FD91D4621D9009A7A67 /* AJCallingCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJCallingCode.swift; sourceTree = "<group>"; };
-		041A2FDA1D4621D9009A7A67 /* AJCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJCountry.swift; sourceTree = "<group>"; };
-		041A2FDB1D4621D9009A7A67 /* AJCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJCountryPicker.swift; sourceTree = "<group>"; };
+		210A90572118621F00C44F3B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
+		210A90592118621F00C44F3B /* CallingCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingCodes.swift; sourceTree = "<group>"; };
+		210A905A2118621F00C44F3B /* AJCountryPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJCountryPicker.xib; sourceTree = "<group>"; };
+		210A905B2118621F00C44F3B /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		210A905C2118621F00C44F3B /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		210A905D2118621F00C44F3B /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		210A905E2118621F00C44F3B /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		210A905F2118621F00C44F3B /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		210A90602118621F00C44F3B /* AJCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJCountryPicker.swift; sourceTree = "<group>"; };
+		210A90612118621F00C44F3B /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		210A90622118621F00C44F3B /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		210A906E2118629100C44F3B /* AJCountryPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AJCountryPicker.podspec; sourceTree = "<group>"; };
+		210A90702118629C00C44F3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,8 @@
 		041A2F5A1D45E498009A7A67 = {
 			isa = PBXGroup;
 			children = (
+				210A906E2118629100C44F3B /* AJCountryPicker.podspec */,
+				210A90702118629C00C44F3B /* README.md */,
 				041A2F661D45E498009A7A67 /* AJCountryPicker */,
 				041A2F721D45E498009A7A67 /* AJCountryPickerTests */,
 				041A2F651D45E498009A7A67 /* Products */,
@@ -77,8 +97,8 @@
 		041A2F661D45E498009A7A67 /* AJCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
-				041A2FD81D4621D9009A7A67 /* Sources */,
-				041A2F801D45E52C009A7A67 /* Resources */,
+				210A90562118621F00C44F3B /* Resources */,
+				210A90582118621F00C44F3B /* Sources */,
 				041A2F691D45E498009A7A67 /* Info.plist */,
 			);
 			path = AJCountryPicker;
@@ -93,20 +113,27 @@
 			path = AJCountryPickerTests;
 			sourceTree = "<group>";
 		};
-		041A2F801D45E52C009A7A67 /* Resources */ = {
+		210A90562118621F00C44F3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				041A2F831D45E564009A7A67 /* assets.bundle */,
+				210A90572118621F00C44F3B /* assets.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		041A2FD81D4621D9009A7A67 /* Sources */ = {
+		210A90582118621F00C44F3B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				041A2FD91D4621D9009A7A67 /* AJCallingCode.swift */,
-				041A2FDA1D4621D9009A7A67 /* AJCountry.swift */,
-				041A2FDB1D4621D9009A7A67 /* AJCountryPicker.swift */,
+				210A90592118621F00C44F3B /* CallingCodes.swift */,
+				210A905A2118621F00C44F3B /* AJCountryPicker.xib */,
+				210A905B2118621F00C44F3B /* Reusable.swift */,
+				210A905C2118621F00C44F3B /* Country.swift */,
+				210A905D2118621F00C44F3B /* CountryTableViewCell.swift */,
+				210A905E2118621F00C44F3B /* CountryTableViewCell.xib */,
+				210A905F2118621F00C44F3B /* UITableView+Reusable.swift */,
+				210A90602118621F00C44F3B /* AJCountryPicker.swift */,
+				210A90612118621F00C44F3B /* NibLoadable.swift */,
+				210A90622118621F00C44F3B /* NibOwnerLoadable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -167,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = TeamAj;
 				TargetAttributes = {
 					041A2F631D45E498009A7A67 = {
@@ -201,7 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041A2F841D45E564009A7A67 /* assets.bundle in Resources */,
+				210A906F2118629100C44F3B /* AJCountryPicker.podspec in Resources */,
+				210A90692118621F00C44F3B /* CountryTableViewCell.xib in Resources */,
+				210A90712118629D00C44F3B /* README.md in Resources */,
+				210A90632118621F00C44F3B /* assets.bundle in Resources */,
+				210A90652118621F00C44F3B /* AJCountryPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041A2FDE1D4621D9009A7A67 /* AJCountryPicker.swift in Sources */,
-				041A2FDC1D4621D9009A7A67 /* AJCallingCode.swift in Sources */,
-				041A2FDD1D4621D9009A7A67 /* AJCountry.swift in Sources */,
+				210A90642118621F00C44F3B /* CallingCodes.swift in Sources */,
+				210A906D2118621F00C44F3B /* NibOwnerLoadable.swift in Sources */,
+				210A906C2118621F00C44F3B /* NibLoadable.swift in Sources */,
+				210A906B2118621F00C44F3B /* AJCountryPicker.swift in Sources */,
+				210A906A2118621F00C44F3B /* UITableView+Reusable.swift in Sources */,
+				210A90672118621F00C44F3B /* Country.swift in Sources */,
+				210A90682118621F00C44F3B /* CountryTableViewCell.swift in Sources */,
+				210A90662118621F00C44F3B /* Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +289,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -287,6 +333,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -302,13 +349,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -328,6 +385,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -339,13 +398,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AJCountryPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamAj.AJCountryPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,13 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AJCountryPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamAj.AJCountryPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

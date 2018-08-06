@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "AJCountryPicker"
-s.version      = "1.0.0.1"
-s.summary      = "AJCountryPicker is a country picker controller for iOS8+ with an option to search"
+s.version      = "2.0.0"
+s.summary      = "AJCountryPicker is a country picker controller for iOS9+ with an option to search"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -57,7 +57,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "Aj Mehra" => "techmehra@gmail.com" }
 # Or just: s.author    = "Aj Mehra"
 # s.authors            = { "Aj Mehra" => "techmehra@gmail.com" }
-# s.social_media_url   = "http://twitter.com/"
+# s.social_media_url   = "http://twitter.com/idev_singh"
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 #
@@ -66,10 +66,10 @@ s.author             = { "Aj Mehra" => "techmehra@gmail.com" }
 #
 
 s.platform     = :ios
-# s.platform     = :ios, "5.0"
+# s.platform     = :ios, "9.0"
 
 #  When using multiple platforms
-s.ios.deployment_target = "8.3"
+s.ios.deployment_target = "9.0"
 # s.osx.deployment_target = "10.7"
 # s.watchos.deployment_target = "2.0"
 # s.tvos.deployment_target = "9.0"
