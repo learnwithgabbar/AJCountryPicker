@@ -92,7 +92,7 @@ s.source       = { :git => "https://github.com/techmehra/AJCountryPicker.git", :
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  =  "AJCountryPicker/Sources/*.swift"
+s.source_files  =  "AJCountryPicker/Sources/*"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
