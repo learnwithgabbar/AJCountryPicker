@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 	// MARK:- IBActions
 	@IBAction func selectCountry(_ sender: UIButton) -> Void {
-        let countryPicker =
+        let countryPicker = ATCountryPicker()
         countryPicker.showSearchBar = true
         countryPicker.customCountriesCodes = ["IN", "US"]
         countryPicker.showCallingCodes = true

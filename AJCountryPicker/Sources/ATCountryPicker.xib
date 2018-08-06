@@ -13,7 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ATCountryPicker" customModule="AJCountryPicker" customModuleProvider="target">
             <connections>
                 <outlet property="searchBar" destination="D96-4d-yKs" id="y1N-Rl-hpO"/>
-                <outlet property="searchBarHeightConstraint" destination="Y2S-Ol-Apn" id="GCg-Nf-z3c"/>
+                <outlet property="searchBarHeightConstraint" destination="Y2S-Ol-Apn" id="6jZ-v1-JSQ"/>
                 <outlet property="tableView" destination="y3f-uf-YWH" id="b5Y-pT-jdA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

@@ -9,10 +9,10 @@
 import Foundation
 
 public class Country: NSObject {
-    @objc var name: String
-    var ISOCode: String
-    var callingCode: String
-    var flagURl: String
+    @objc public var name: String
+    public var ISOCode: String
+    public var callingCode: String
+    public var flagURl: String
 
     init(name: String, ISOCode: String, callingCode: String) {
         self.name = name
