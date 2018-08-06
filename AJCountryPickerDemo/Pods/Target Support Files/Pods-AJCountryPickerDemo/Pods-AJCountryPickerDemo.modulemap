@@ -1,6 +1,0 @@
-framework module Pods_AJCountryPickerDemo {
-  umbrella header "Pods-AJCountryPickerDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

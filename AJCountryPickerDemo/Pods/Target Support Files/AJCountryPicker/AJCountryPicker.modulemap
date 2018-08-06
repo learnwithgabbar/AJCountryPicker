@@ -1,6 +1,0 @@
-framework module AJCountryPicker {
-  umbrella header "AJCountryPicker-umbrella.h"
-
-  export *
-  module * { export * }
-}
