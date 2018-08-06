@@ -11,17 +11,17 @@
 		041A2F741D45E498009A7A67 /* AJCountryPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2F731D45E498009A7A67 /* AJCountryPickerTests.swift */; };
 		210A90632118621F00C44F3B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 210A90572118621F00C44F3B /* assets.bundle */; };
 		210A90642118621F00C44F3B /* CallingCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90592118621F00C44F3B /* CallingCodes.swift */; };
-		210A90652118621F00C44F3B /* ATCountryPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905A2118621F00C44F3B /* ATCountryPicker.xib */; };
 		210A90662118621F00C44F3B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905B2118621F00C44F3B /* Reusable.swift */; };
 		210A90672118621F00C44F3B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905C2118621F00C44F3B /* Country.swift */; };
 		210A90682118621F00C44F3B /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905D2118621F00C44F3B /* CountryTableViewCell.swift */; };
-		210A90692118621F00C44F3B /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905E2118621F00C44F3B /* CountryTableViewCell.xib */; };
 		210A906A2118621F00C44F3B /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905F2118621F00C44F3B /* UITableView+Reusable.swift */; };
 		210A906B2118621F00C44F3B /* ATCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90602118621F00C44F3B /* ATCountryPicker.swift */; };
 		210A906C2118621F00C44F3B /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90612118621F00C44F3B /* NibLoadable.swift */; };
 		210A906D2118621F00C44F3B /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90622118621F00C44F3B /* NibOwnerLoadable.swift */; };
 		210A906F2118629100C44F3B /* AJCountryPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 210A906E2118629100C44F3B /* AJCountryPicker.podspec */; };
 		210A90712118629D00C44F3B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 210A90702118629C00C44F3B /* README.md */; };
+		210A907421186EAB00C44F3B /* ATCountryPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A907221186EAA00C44F3B /* ATCountryPicker.xib */; };
+		210A907521186EAB00C44F3B /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A907321186EAA00C44F3B /* CountryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +42,17 @@
 		041A2F751D45E498009A7A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210A90572118621F00C44F3B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
 		210A90592118621F00C44F3B /* CallingCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingCodes.swift; sourceTree = "<group>"; };
-		210A905A2118621F00C44F3B /* ATCountryPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCountryPicker.xib; sourceTree = "<group>"; };
 		210A905B2118621F00C44F3B /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		210A905C2118621F00C44F3B /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		210A905D2118621F00C44F3B /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
-		210A905E2118621F00C44F3B /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 		210A905F2118621F00C44F3B /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		210A90602118621F00C44F3B /* ATCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCountryPicker.swift; sourceTree = "<group>"; };
 		210A90612118621F00C44F3B /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		210A90622118621F00C44F3B /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
 		210A906E2118629100C44F3B /* AJCountryPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AJCountryPicker.podspec; sourceTree = "<group>"; };
 		210A90702118629C00C44F3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		210A907221186EAA00C44F3B /* ATCountryPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCountryPicker.xib; sourceTree = "<group>"; };
+		210A907321186EAA00C44F3B /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,8 @@
 		210A90562118621F00C44F3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				210A907221186EAA00C44F3B /* ATCountryPicker.xib */,
+				210A907321186EAA00C44F3B /* CountryTableViewCell.xib */,
 				210A90572118621F00C44F3B /* assets.bundle */,
 			);
 			path = Resources;
@@ -125,11 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				210A90592118621F00C44F3B /* CallingCodes.swift */,
-				210A905A2118621F00C44F3B /* ATCountryPicker.xib */,
 				210A905B2118621F00C44F3B /* Reusable.swift */,
 				210A905C2118621F00C44F3B /* Country.swift */,
 				210A905D2118621F00C44F3B /* CountryTableViewCell.swift */,
-				210A905E2118621F00C44F3B /* CountryTableViewCell.xib */,
 				210A905F2118621F00C44F3B /* UITableView+Reusable.swift */,
 				210A90602118621F00C44F3B /* ATCountryPicker.swift */,
 				210A90612118621F00C44F3B /* NibLoadable.swift */,
@@ -229,10 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				210A906F2118629100C44F3B /* AJCountryPicker.podspec in Resources */,
-				210A90692118621F00C44F3B /* CountryTableViewCell.xib in Resources */,
 				210A90712118629D00C44F3B /* README.md in Resources */,
 				210A90632118621F00C44F3B /* assets.bundle in Resources */,
-				210A90652118621F00C44F3B /* ATCountryPicker.xib in Resources */,
+				210A907421186EAB00C44F3B /* ATCountryPicker.xib in Resources */,
+				210A907521186EAB00C44F3B /* CountryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
