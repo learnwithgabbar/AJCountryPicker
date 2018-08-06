@@ -49,7 +49,15 @@ public class ATCountryPicker: UIViewController {
         tableView.reloadData()
     }
     
+    private func loadXib() {
+        let podBundle = Bundle.init(for: ATCountryPicker.self)
+        let bundleURL = podBundle.URLForResource(AJCountryPicker, withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+        self.view = UINib.init(nibName: "ATCountryPicker", bundle: bundle)
+    }
+    
     private func initUI() {
+        loadXib()
         searchBarHeightConstraint.constant = showSearchBar ? 56 : 0
         tableView.register(cellType: CountryTableViewCell.self)
         items = countries

@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AJCountryPicker:
-    :commit: e8bac15372211103e87c15e08b3d85b58af7db4b
+    :commit: ddc090a2045c0b2ae8c03407edc4933b2a7cd165
     :git: https://github.com/techmehra/AJCountryPicker.git
 
 SPEC CHECKSUMS:
-  AJCountryPicker: a4f6586b08ec4b3a44aa7046501ada15ad000172
+  AJCountryPicker: f4bba2b59114a6442e5ed523ff1aeaa502f2440e
 
 PODFILE CHECKSUM: ebc430b58c832c94606684bed67ccc0202981d0c
 

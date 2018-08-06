@@ -19,6 +19,6 @@
     "tag": "2.0.0"
   },
   "source_files": "AJCountryPicker/Sources/*",
-  "resources": "AJCountryPicker/Resources/assets.bundle",
+  "resources": "AJCountryPicker/Resources/*",
   "requires_arc": true
 }
