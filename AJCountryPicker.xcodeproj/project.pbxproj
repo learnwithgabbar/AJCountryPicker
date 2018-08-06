@@ -23,6 +23,8 @@
 		210A905121184D8E00C44F3B /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A904F21184D8E00C44F3B /* CountryTableViewCell.swift */; };
 		210A905221184D8E00C44F3B /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905021184D8E00C44F3B /* CountryTableViewCell.xib */; };
 		210A90552118578200C44F3B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 210A90542118578200C44F3B /* assets.bundle */; };
+		210A907921187D0400C44F3B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 210A907721187D0400C44F3B /* README.md */; };
+		210A907A21187D0400C44F3B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 210A907821187D0400C44F3B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		210A904F21184D8E00C44F3B /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		210A905021184D8E00C44F3B /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 		210A90542118578200C44F3B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
+		210A907721187D0400C44F3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		210A907821187D0400C44F3B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		210A901821181BAE00C44F3B = {
 			isa = PBXGroup;
 			children = (
+				210A907821187D0400C44F3B /* LICENSE */,
+				210A907721187D0400C44F3B /* README.md */,
 				210A902321181BAE00C44F3B /* AjCountryPicker */,
 				210A902221181BAE00C44F3B /* Products */,
 			);
@@ -173,7 +179,9 @@
 			files = (
 				210A90552118578200C44F3B /* assets.bundle in Resources */,
 				210A902F21181BB000C44F3B /* LaunchScreen.storyboard in Resources */,
+				210A907A21187D0400C44F3B /* LICENSE in Resources */,
 				210A904E21184D1A00C44F3B /* AJCountryPicker.xib in Resources */,
+				210A907921187D0400C44F3B /* README.md in Resources */,
 				210A902C21181BB000C44F3B /* Assets.xcassets in Resources */,
 				210A902A21181BAE00C44F3B /* Main.storyboard in Resources */,
 				210A905221184D8E00C44F3B /* CountryTableViewCell.xib in Resources */,
