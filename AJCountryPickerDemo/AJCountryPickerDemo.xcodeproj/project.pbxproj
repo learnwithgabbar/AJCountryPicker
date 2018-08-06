@@ -135,12 +135,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F9D7071D47154200E74869 /* Build configuration list for PBXNativeTarget "AJCountryPickerDemo" */;
 			buildPhases = (
+				65D3B4A26724EA8D9C57763A /* [CP] Check Pods Manifest.lock */,
 				63C1989FF08316A69197A359 /* 📦 Check Pods Manifest.lock */,
 				04F9D6E61D47154200E74869 /* Sources */,
 				04F9D6E71D47154200E74869 /* Frameworks */,
 				04F9D6E81D47154200E74869 /* Resources */,
 				A948EF2F173FFAD6C0342A0F /* 📦 Embed Pods Frameworks */,
 				2D3BF5268E163A59B2072A5C /* 📦 Copy Pods Resources */,
+				CE9423A136EB657D776EC9BE /* [CP] Embed Pods Frameworks */,
+				80F5CB19DA084C3756A33FF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,12 +158,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F9D70A1D47154200E74869 /* Build configuration list for PBXNativeTarget "AJCountryPickerDemoTests" */;
 			buildPhases = (
+				92D084406F56E3182216C1D7 /* [CP] Check Pods Manifest.lock */,
 				0EF5F055DF204BC9A72BF548 /* 📦 Check Pods Manifest.lock */,
 				04F9D6FA1D47154200E74869 /* Sources */,
 				04F9D6FB1D47154200E74869 /* Frameworks */,
 				04F9D6FC1D47154200E74869 /* Resources */,
 				AE2FB74FB26E71A7D72D7D9A /* 📦 Embed Pods Frameworks */,
 				0BEEF1557DECDDD513DB04D5 /* 📦 Copy Pods Resources */,
+				D4F97D1FB59C1E350536445F /* [CP] Embed Pods Frameworks */,
+				68E7DE7665312A202BA50923 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +297,72 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		65D3B4A26724EA8D9C57763A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AJCountryPickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E7DE7665312A202BA50923 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJCountryPickerDemoTests/Pods-AJCountryPickerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F5CB19DA084C3756A33FF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJCountryPickerDemo/Pods-AJCountryPickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D084406F56E3182216C1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AJCountryPickerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A948EF2F173FFAD6C0342A0F /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +386,39 @@
 			inputPaths = (
 			);
 			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJCountryPickerDemoTests/Pods-AJCountryPickerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9423A136EB657D776EC9BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AJCountryPickerDemo/Pods-AJCountryPickerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AJCountryPicker/AJCountryPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJCountryPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJCountryPickerDemo/Pods-AJCountryPickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F97D1FB59C1E350536445F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +568,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamAj.AJCountryPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -475,6 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamAj.AJCountryPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
