@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AJCountryPicker: UIViewController {
+class AJCountryPicker: UIViewController {
     // MARK: - IBOutlets
     
     @IBOutlet private var tableView: UITableView!
@@ -73,15 +73,15 @@ public class AJCountryPicker: UIViewController {
 // MARK: - Table view data source
 
 extension AJCountryPicker: UITableViewDataSource {
-    public func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
     
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as CountryTableViewCell
         let country: Country = items[indexPath.row]
         cell.configure(with: country, showCallingCode: showCallingCodes, showFlag: showCountryFlags)
@@ -92,7 +92,7 @@ extension AJCountryPicker: UITableViewDataSource {
 // MARK: - Table view delegate
 
 extension AJCountryPicker: UITableViewDelegate {
-    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         country?(items[indexPath.row])
         if isPresented {
             dismiss(animated: true, completion: nil)
@@ -103,7 +103,7 @@ extension AJCountryPicker: UITableViewDelegate {
 }
 
 extension AJCountryPicker: UISearchBarDelegate {
-    public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filter(with: searchText)
     }
 }
