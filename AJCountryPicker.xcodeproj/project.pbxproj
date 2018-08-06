@@ -11,7 +11,7 @@
 		041A2F741D45E498009A7A67 /* AJCountryPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A2F731D45E498009A7A67 /* AJCountryPickerTests.swift */; };
 		210A90632118621F00C44F3B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 210A90572118621F00C44F3B /* assets.bundle */; };
 		210A90642118621F00C44F3B /* CallingCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A90592118621F00C44F3B /* CallingCodes.swift */; };
-		210A90652118621F00C44F3B /* AJCountryPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905A2118621F00C44F3B /* AJCountryPicker.xib */; };
+		210A90652118621F00C44F3B /* ATCountryPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210A905A2118621F00C44F3B /* ATCountryPicker.xib */; };
 		210A90662118621F00C44F3B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905B2118621F00C44F3B /* Reusable.swift */; };
 		210A90672118621F00C44F3B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905C2118621F00C44F3B /* Country.swift */; };
 		210A90682118621F00C44F3B /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A905D2118621F00C44F3B /* CountryTableViewCell.swift */; };
@@ -42,7 +42,7 @@
 		041A2F751D45E498009A7A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210A90572118621F00C44F3B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
 		210A90592118621F00C44F3B /* CallingCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingCodes.swift; sourceTree = "<group>"; };
-		210A905A2118621F00C44F3B /* AJCountryPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJCountryPicker.xib; sourceTree = "<group>"; };
+		210A905A2118621F00C44F3B /* ATCountryPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCountryPicker.xib; sourceTree = "<group>"; };
 		210A905B2118621F00C44F3B /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		210A905C2118621F00C44F3B /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		210A905D2118621F00C44F3B /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				210A90592118621F00C44F3B /* CallingCodes.swift */,
-				210A905A2118621F00C44F3B /* AJCountryPicker.xib */,
+				210A905A2118621F00C44F3B /* ATCountryPicker.xib */,
 				210A905B2118621F00C44F3B /* Reusable.swift */,
 				210A905C2118621F00C44F3B /* Country.swift */,
 				210A905D2118621F00C44F3B /* CountryTableViewCell.swift */,
@@ -232,7 +232,7 @@
 				210A90692118621F00C44F3B /* CountryTableViewCell.xib in Resources */,
 				210A90712118629D00C44F3B /* README.md in Resources */,
 				210A90632118621F00C44F3B /* assets.bundle in Resources */,
-				210A90652118621F00C44F3B /* AJCountryPicker.xib in Resources */,
+				210A90652118621F00C44F3B /* ATCountryPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
